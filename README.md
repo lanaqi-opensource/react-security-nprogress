@@ -1,2 +1,3 @@
-# react-security-nprogress
-React 安全路由器的 NProgress 行为插件（外接）
+# React Security NProgress
+
+React 安全路由器 NProgress 插件

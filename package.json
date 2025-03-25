@@ -1,0 +1,51 @@
+{
+  "name": "@lanaqi/rsr-nprogress",
+  "version": "0.0.1-rc.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "keywords": ["react-security-router", "rsr", "nprogress"],
+  "description": "React 安全路由器 NProgress 插件",
+  "scripts": {
+    "build": "rslib build",
+    "lint": "biome lint",
+    "check": "biome check",
+    "format": "biome format --write",
+    "release": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@lanaqi/rsr": "^0.0.1-rc.0",
+    "@rsbuild/plugin-react": "^1.1.1",
+    "@rslib/core": "^0.5.1",
+    "@types/nprogress": "^0.2.3",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "nprogress": "^0.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "@lanaqi/rsr": ">=0.0.1-rc.0",
+    "nprogress": ">=0.2.0",
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lanaqi-opensource/react-security-nprogress.git"
+  }
+}
