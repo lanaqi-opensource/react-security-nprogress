@@ -1,6 +1,6 @@
 {
   "name": "@lanaqi/rsr-nprogress",
-  "version": "0.0.1-rc.0",
+  "version": "0.0.1",
   "type": "module",
   "exports": {
     ".": {
@@ -10,8 +10,14 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
-  "keywords": ["react-security-router", "rsr", "nprogress"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react-security-router",
+    "rsr",
+    "nprogress"
+  ],
   "description": "React 安全路由器 NProgress 插件",
   "scripts": {
     "build": "rslib build",
@@ -22,19 +28,19 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@lanaqi/rsr": "^0.0.1-rc.0",
+    "@lanaqi/rsr": "^0.0.1",
     "@rsbuild/plugin-react": "^1.1.1",
-    "@rslib/core": "^0.5.1",
+    "@rslib/core": "^0.6.8",
     "@types/nprogress": "^0.2.3",
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
+    "@types/react": "^19.1.3",
+    "@types/react-dom": "^19.1.3",
     "nprogress": "^0.2.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "typescript": "^5.7.3"
   },
   "peerDependencies": {
-    "@lanaqi/rsr": ">=0.0.1-rc.0",
+    "@lanaqi/rsr": ">=0.0.1",
     "nprogress": ">=0.2.0",
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0"
